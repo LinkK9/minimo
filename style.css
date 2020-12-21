@@ -92,6 +92,20 @@
     }
   }
  
+  @media (max-width: 400px){
+
+    
+    .blog-content{
+        width: 100%;
+    }
+
+    .side-bar{
+        display: none;
+    }
+    .comment-type input{
+        width: 275px;
+    }
+  }
 
   @media (min-width: 1200px){
     .container {
@@ -115,6 +129,8 @@
     }
   }
 
+
+
   @media (max-width: 576px){
 
     .comment-type input{
@@ -122,10 +138,10 @@
     }
   }
 
-  @media (max-width: 576px){
+  @media (max-width: 400px){
 
     .comment-type input{
-        width: 555px;
+        width: 275px;
     }
   }
 
