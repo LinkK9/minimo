@@ -1,0 +1,265 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    /* font-size: 62.5%; */
+  }
+
+  @font-face {
+      font-family: "Playfair_display" ;
+      src: url("FONTS/Playfair_Display/PlayfairDisplay-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Inconsolata";
+    src: url("FONTS/Inconsolata/static/Inconsolata-Regular.ttf");
+}
+  
+  body {
+    font-family: "Playfair_display", sans-serif;
+    font-size: 14px;
+    color: #626262;
+  }
+
+  
+
+  .navbar-brand{
+      font-family: "Inconsolata";
+      font-size: 30px;
+  }
+  
+
+  
+  img {
+    vertical-align: middle;
+    height: auto;
+    max-width: 100%;
+  }
+  a,
+  a:hover,
+  a:active,
+  a:focus {
+    text-decoration: none;
+    outline: 0;
+  }
+  ul,
+  li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  h2, p {
+      color: #626262;
+  }
+  .tag{
+      color: #b4ad9e;
+  }
+ .upper{
+     text-transform: uppercase;
+ }
+
+
+  /* style */
+ 
+  .navbar{
+      text-transform: uppercase;
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+  @media (min-width: 576px){
+    .navbar-expand-sm .navbar-nav .nav-link {
+        padding-right: 0px;
+        padding-left: .5rem;
+    }
+    footer.container-fluid .container {
+        flex-wrap: wrap;
+    }
+  }
+ 
+  @media (max-width: 576px){
+
+    footer.container-fluid .container {
+        display: block !important;
+    }
+  }
+ 
+
+  @media (min-width: 1200px){
+    .container {
+        max-width: 1062px;
+        padding: 0;
+    }
+    .main {
+        max-width: 900px;
+    }
+
+    .comment-type input{
+        width: 795px;
+    }
+  }
+
+  @media (max-width: 576px){
+
+    .comment-type input{
+        width: 555px;
+    }
+  }
+
+  .sign.container-fluid{
+    text-align: center;
+    background-color: #f0f0f0;
+    height: 290px;
+}
+
+
+form button img{
+    width: 32px;
+    border: 0;
+    color: white;
+}
+
+#banner{
+    padding-top: 75px;
+    padding-bottom: 100px;
+}
+
+h2.tittle{
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+.item .thumbnail{
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+.load-more{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.load-button{
+    width: 170px;
+    height: 60px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.load-button h4{
+    margin-bottom: 0px;;
+}
+
+footer.container-fluid{
+    height: 100px;
+    margin-top: 95px;
+    background-color: #f0f0f0;
+}
+
+
+footer.container-fluid .container ul li a, footer.container-fluid .container ul li {
+    /* display: flex; */
+    color: #626262;
+}
+
+ul.privacy li a {
+    margin-right: 20px;
+}
+
+ul.social li {
+    margin-right: 15px;
+    color: #007bff;
+    
+}
+
+
+
+form.email{
+    width: 400px;
+    padding-top: 85px;
+    border: 0;
+    border-bottom: 1px solid #999999;
+}
+
+form.email input{
+    width: calc(100% - 55px);
+    border: 0;
+    /* border-bottom: 1px solid #999999; */
+    background-color: inherit;
+}
+
+form.email button{
+    
+    border: 0;
+    /* border-bottom: 1px solid #999999; */
+    background-color: inherit;
+}
+
+
+.pic{
+    padding-top: 65px;
+}
+
+p.italic{
+    padding-top: 60px;
+    margin-bottom: 37px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+p.hint{
+    text-transform: uppercase;
+}
+.share{
+    padding-top: 60px;
+    padding-bottom: 90px;
+}
+.share ul li{
+    margin-left: 20px;
+}
+.share ul li a{
+    color: #626262;
+}
+.mini-blog a{
+    color: #626262;
+}
+.more-blog.container-fluid{
+    text-align: left;
+    background-color: #f0f0f0;
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+.comments-list{
+    padding-top: 70px;
+}
+.avatar{
+    /* margin-right: 35px; */
+    height: 74px;
+    width: 74px;
+    border-radius: 50%;
+}
+
+.avatar img{
+    /* width: 100%;
+    height: 100%; */
+}
+
+.comment-content{
+    padding-left: 35px;
+}
+.comment-type{
+    padding-left: 35px;
+}
+.comment-type input{
+   height: 70px;
+   border-radius: 5px;
+}
+
+.connect{
+    padding-top: 60px;
+    padding-bottom: 0px;
+}
