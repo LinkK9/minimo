@@ -95,8 +95,23 @@
         max-width: 900px;
     }
 
+    .blog-content{
+        max-width: 650px;
+    }
+
+    .side-bar{
+        max-width: 250px;
+    }
+
     .comment-type input{
         width: 795px;
+    }
+  }
+
+  @media (max-width: 576px){
+
+    .comment-type input{
+        width: 555px;
     }
   }
 
@@ -262,4 +277,20 @@ p.hint{
 .connect{
     padding-top: 60px;
     padding-bottom: 0px;
+}
+
+.contact ul li{
+    margin-right: 15px;
+}
+
+.contact ul li a{
+    color: #626262;
+}
+
+ul.single-post:nth-child(1) {
+    list-style: disc;
+}
+
+.list-style{
+    list-style: disc;
 }
