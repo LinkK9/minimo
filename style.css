@@ -83,6 +83,13 @@
     footer.container-fluid .container {
         display: block !important;
     }
+    .blog-content{
+        width: 100%;
+    }
+
+    .side-bar{
+        display: none;
+    }
   }
  
 
